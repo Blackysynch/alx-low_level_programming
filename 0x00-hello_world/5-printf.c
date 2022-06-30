@@ -1,7 +1,8 @@
 #include<stdio.h>
-/*
- * main - is the entry point
- * return: always put a return function
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
