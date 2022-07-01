@@ -12,7 +12,6 @@ int main(void)
 	{
 		putchar(num + '0');
 	}
-	
 	putchar('\n');
 	return (0);
 }
