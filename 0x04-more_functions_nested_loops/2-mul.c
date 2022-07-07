@@ -1,17 +1,11 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * mul - perform multiplication
+ * mul - multiplies a and b together
  * @a: integer variable
- * @b: integer variable
- * Return: 0 always
+ * @b: is an integer variabla
+ * Return: Always 0.
  */
-
 int mul(int a, int b)
 {
-	int a;
-	int b;
-
-	putchar(a * b);
-	return (0);
+return (a * b);
 }
