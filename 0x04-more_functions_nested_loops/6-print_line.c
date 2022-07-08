@@ -2,7 +2,7 @@
 
 /**
  * print_line - Prints a line number of times
- *@n: variable
+ * @n: variable
  *
  * Return: Always 0.
  */
@@ -13,9 +13,9 @@ void print_line(int n)
 
 	while (a < n && n > 0)
 	{
-		putchar('_');
+		_putchar('_');
 		a++;
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
