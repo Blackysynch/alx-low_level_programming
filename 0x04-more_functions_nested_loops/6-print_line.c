@@ -1,22 +1,19 @@
 #include "main.h"
-#include <unistd.h>
+#include <stdio.h>
 
 /**
- * print_line - Prints a line number of times
- * @n: variable
- *
- * Return: Always 0.
+ *  print_line - prints a line the same length as variable
+ * @n: limits thelength of the line
+ *  Return: void
  */
 
 void print_line(int n)
 {
-	int a = 0;
+	int a;
 
-	while (a < n && n > 0)
+	for (a = 0; a < n; a++)
 	{
-		_putchar('_');
-		a++;
+		putchar('_');
 	}
-
-	_putchar('\n');
+	putchar('\n');
 }
