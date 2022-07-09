@@ -17,8 +17,13 @@ void more_numbers(void)
 
 		for (b = 0; b <= 14; b++)
 		{
-			putchar((b / 10) + '0'); /* gives you the tens value */
-			putchar((b % 10) + '0'); /* gives you the unit value */
+			if (b > 9)
+			{
+				putchar((b / 10) + '0'); /* gives you the tens value */
+				putchar((b % 10) + '0'); /* gives you the unit value */
+			}
+			else
+				putchar(b + '0');
 		}
 		putchar ('\n');
 		a++;
