@@ -9,23 +9,18 @@
 
 void more_numbers(void)
 {
-	char n, c;
-	int i = 0;
+	int a = 0;
 
-	while (i < 10)
+	while (a < 10)
 	{
-		for (n = 0; n <= 14; n++)
-		{
-			c = n;
-			if (n > 9)
-			{
-				putchar('1');
-				c = n % 10;
-			}
+		int b = 0;
 
-			putchar('0' + c);
+		for (b = 0; b <= 14; b++)
+		{
+			putchar((b / 10) + '0'); /* gives you the tens value */
+			putchar((b % 10) + '0'); /* gives you the unit value */
 		}
-		putchar('\n');
-		i++;
+		putchar ('\n');
+		a++;
 	}
 }
