@@ -20,10 +20,9 @@ void more_numbers(void)
 			if (b > 9)
 			{
 				putchar((b / 10) + '0'); /* gives you the tens value */
-				putchar((b % 10) + '0'); /* gives you the unit value */
 			}
-			else
-				putchar(b + '0');
+
+			putchar((b % 10) +  '0');
 		}
 		putchar ('\n');
 		a++;
