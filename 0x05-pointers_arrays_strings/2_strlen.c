@@ -2,7 +2,7 @@
 
 /**
  * _strlen - gives length of a string
- *
+ * @s: represents the  array
  * Return: no return
  */
 int _strlen(char *s)
