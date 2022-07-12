@@ -2,14 +2,15 @@
 
 /**
  * main - check the code 
- *
+ * @a: first parameter
+ * @b: second parameter
  * Return: no return
  */
 void swap_int(int *a, int *b)
 {
-	int *a;
-	int *b;
+	int swap;
 
-	*b = a;
-	*a = b;
+	swap = *a;
+	*a = *b;
+	*b = swap;
 }
