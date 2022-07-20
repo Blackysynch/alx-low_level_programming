@@ -11,21 +11,18 @@ int _putchar(char c);
  */
 void print_number(int n)
 {
-	unsigned int n1 = 0;
+	unsigned int num = n;
 
 	if (n < 0)
 	{
-		n1 = -n;
 		_putchar('-');
-	}
-	else
-	{
-		n1 = n;
+		num = -num;
 	}
 
-	if (n1 / 10)
-	{
-		print_number(n1 / 10);
-	}
-	_putchar((n1 % 10) + '0');
+	/*print the first few digits*/
+	if ((num / 10) > 0)
+		print_number(num / 10);
+
+	/*print the last digit*/
+	_putchar((num % 10) + 48);
 }
