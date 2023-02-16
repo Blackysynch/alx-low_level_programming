@@ -3,7 +3,7 @@
 /**
  * dlistint_len - Counts the elements of a dlistint_t list
  * @h: The pointer to the head of the dlistint_t list
- * 
+ *
  * Return: The number of nodes in the dlistint_t list
  */
 size_t dlistint_len(const dlistint_t *h)
