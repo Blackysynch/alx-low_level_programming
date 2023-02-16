@@ -116,7 +116,7 @@ int f4(char *str, int len)
 		return (n & 63);
 }
 
-**
+/**
  * f5 - Computes the fifth character in the key for the given username
  * @str: The username
  * @len: The length of the given username
